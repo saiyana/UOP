@@ -12,7 +12,7 @@ Project flow:
 	•For each topic obtained, retrieve the tuples which correspond to the particular topic from the feedback.
 	Output: Categorized Feedback with respect to each topic.
 3.Topic summarization:
-	•The categorized feedback will be summarized using the TextRank (a graph-based ranking model for text processing and 			summarization)
+	•The categorized feedback will be summarized using the TextRank (a graph-based ranking model for text processing and summarization)
 	Input: Categorized feedback.
 	Output: Topic wise summary.
 4.Sentiment analysis:
