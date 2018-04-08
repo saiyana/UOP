@@ -1,29 +1,30 @@
 Project flow:
 1.Web crawling:
-	•Create a spider using scrapy (a web crawling framework).
-	Input: By the user or a list of URL’s given as input parameters to the spider.
-	•Execute the spider.
-	•The feedback will be retrieved from the scrapped data. This forms the dataset for the project.
+	â€¢Create a spider using scrapy (a web crawling framework).
+	Input: By the user or a list of URLâ€™s given as input parameters to the spider.
+	â€¢Execute the spider.
+	â€¢The feedback will be retrieved from the scrapped data. This forms the dataset for the project.
 2.Topic modelling:
-	•Latent Dirichlet allocation (LDA) will be used to categorize the most important topics from the feedback. 
+	â€¢Latent Dirichlet allocation (LDA), Non-negative matrix function (NMF) will be used to categorize the most important topics from
+	the feedback. 
 	Input: Feedback Dataset.
 	Output: List of topics based on the frequencies of the words.
-	•For each topic obtained, retrieve the tuples which correspond to the particular topic from the feedback.
+	â€¢For each topic obtained, retrieve the tuples which correspond to the particular topic from the feedback.
 	Output: Categorized Feedback with respect to each topic.
 3.Topic summarization:
-	•The categorized feedback will be summarized using the TextRank (a graph-based ranking model for text processing and summarization)
+	â€¢The categorized feedback will be summarized using the TextRank (a graph-based ranking model for text processing and 			summarization)
 	Input: Categorized feedback.
 	Output: Topic wise summary.
 4.Sentiment analysis:
 Opinion mining will be performed in two approaches: 
-	•Bag of words: Each of the words in the feedback are given its polarity of sentiment, and then classified as positive or negative based upon the polarity of the feedback.
+	â€¢Bag of words: Each of the words in the feedback are given its polarity of sentiment, and then classified as positive or negative based upon the polarity of the feedback.
 	Dictionary: A dictionary of opinion oriented words along with their sentiment score is considered for the polarity.
 	Input: Categorized feedback.
 	Output: Sentiment of each topic.
-	•Classifier: Support vector machine classifier (Multikernel)
+	â€¢Classifier: Support vector machine classifier (Multikernel)
 	Testing: Cross-validation.
 
 Technology stack:
-•Frontend development: ReactJS
-•Analytics: Python
-•Backend development: Django, Postgre SQL Server, SQL Database.
+â€¢Frontend development: ReactJS
+â€¢Analytics: Python
+â€¢Backend development: Django, Postgre SQL Server, SQL Database.
