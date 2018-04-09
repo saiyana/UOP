@@ -37,7 +37,12 @@ def getTweetsForSummary(H, W, featureNames, tweets, noOfTopWords, noOfTopDocumen
         newEachTopicList = remove_values_from_list(newEachTopicList, 'jpmchase')
         newEachTopicList = remove_values_from_list(newEachTopicList, 'jpmorgans')
         newEachTopicList = remove_values_from_list(newEachTopicList, 'jpmorganchase')
-        newEachTopicList = remove_values_from_list(newEachTopicList, 'jp')
+        newEachTopicList = remove_values_from_list(newEachTopicList, 'chasebank')
+        newEachTopicList = remove_values_from_list(newEachTopicList, 'chase')
+        newEachTopicList = remove_values_from_list(newEachTopicList, 'customer')
+        newEachTopicList = remove_values_from_list(newEachTopicList, 'chasesupport')
+        newEachTopicList = remove_values_from_list(newEachTopicList, 'help')
+        newEachTopicList = remove_values_from_list(newEachTopicList, 'bank')
 
         topicsList.append(newEachTopicList[0])
 
