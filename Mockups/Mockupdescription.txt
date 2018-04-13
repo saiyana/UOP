@@ -1,0 +1,14 @@
+Mockup screens:
+
+Screen 1:
+	This is the home page. When user enters the tag word in the input search box and then click search button screen 2 gets displayed.
+Screen 2:
+	A word cloud of the important topics which are obtained for the hash tag is displayed in this page. 
+Screen 3:
+	Another word cloud on the topics chosen by the user gets displayed. The sentiment for each topic can be seen. The positive topics in green colour and the negative ones in red colour.
+Screen 4:
+	This page allows the user to choose his own topic. When the topic is clicked the topic name and the summary of that particular topic gets displayed over there.
+Screen 5:
+	-The no. of followers/friends of the person who tweeted, the no. of chase customers and the no. of non chase customrs details can be seen.
+	-When the user clicks send notifications button, notifications are sent to all the non chase  customers.
+	-When user enters the hashtag and then click the search button a pie chart gets displayed which shows the no. of chase and non chase customers.
