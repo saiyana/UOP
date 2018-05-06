@@ -84,8 +84,6 @@ def getTopics(obj):
     [topicsListLDA, summaryListLDA] = getTweetsForSummary(ldaH, ldaW, tfFeatureNames, tweets, noOfTopWords,
                                                           noOfTopDocuments)
 
-    #resultTopics = list(sorted(set(topicsListNMF + topicsListLDA)))
-    #resultSummary = list(sorted(set(summaryListNMF + summaryListLDA)))
     resultTopics=topicsListLDA+topicsListNMF
     resultSummary=summaryListLDA+summaryListNMF
     l = []
